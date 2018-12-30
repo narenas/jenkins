@@ -2,7 +2,7 @@ pipeline {
   agent {
     kubernetes {
         label 'default-java'
-        #yamlFile 'jenkins/podtemplates/maven-pod.yml'
+        yamlFile 'maven-pod.yml'
     }
   }
   stages {
