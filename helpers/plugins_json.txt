@@ -1,0 +1,370 @@
+{
+    "analysis-core": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/analysis-core/1.95/analysis-core.hpi",
+        "version": "1.95"
+    },
+    "ant": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/ant/1.9/ant.hpi",
+        "version": "1.9"
+    },
+    "apache-httpcomponents-client-4-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/apache-httpcomponents-client-4-api/4.5.5-3.0/apache-httpcomponents-client-4-api.hpi",
+        "version": "4.5.5-3.0"
+    },
+    "aws-credentials": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/aws-credentials/1.24/aws-credentials.hpi",
+        "version": "1.24"
+    },
+    "basic-branch-build-strategies": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/basic-branch-build-strategies/1.1.1/basic-branch-build-strategies.hpi",
+        "version": "1.1.1"
+    },
+    "block-same-builds": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/block-same-builds/1.3/block-same-builds.hpi",
+        "version": "1.3"
+    },
+    "blueocean-autofavorite": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-autofavorite/1.2.2/blueocean-autofavorite.hpi",
+        "version": "1.2.2"
+    },
+    "blueocean-commons": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-commons/1.9.0/blueocean-commons.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-core-js": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-core-js/1.9.0/blueocean-core-js.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-display-url": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-display-url/2.2.0/blueocean-display-url.hpi",
+        "version": "2.2.0"
+    },
+    "blueocean-git-pipeline": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-git-pipeline/1.9.0/blueocean-git-pipeline.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-i18n": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-i18n/1.9.0/blueocean-i18n.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-jwt": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-jwt/1.9.0/blueocean-jwt.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-pipeline-api-impl": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-pipeline-api-impl/1.9.0/blueocean-pipeline-api-impl.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-pipeline-scm-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-pipeline-scm-api/1.9.0/blueocean-pipeline-scm-api.hpi",
+        "version": "1.9.0"
+    },
+    "blueocean-rest-impl": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/blueocean-rest-impl/1.9.0/blueocean-rest-impl.hpi",
+        "version": "1.9.0"
+    },
+    "bouncycastle-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/bouncycastle-api/2.17/bouncycastle-api.hpi",
+        "version": "2.17"
+    },
+    "build-monitor-plugin": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/build-monitor-plugin/1.12+build.201809061734/build-monitor-plugin.hpi",
+        "version": "1.12+build.201809061734"
+    },
+    "build-timeout": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/build-timeout/1.19/build-timeout.hpi",
+        "version": "1.19"
+    },
+    "built-on-column": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/built-on-column/1.1/built-on-column.hpi",
+        "version": "1.1"
+    },
+    "cloud-stats": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/cloud-stats/0.20/cloud-stats.hpi",
+        "version": "0.20"
+    },
+    "cloudbees-folder": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/cloudbees-folder/6.7/cloudbees-folder.hpi",
+        "version": "6.7"
+    },
+    "code-coverage-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/code-coverage-api/1.0.5/code-coverage-api.hpi",
+        "version": "1.0.5"
+    },
+    "conditional-buildstep": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/conditional-buildstep/1.3.6/conditional-buildstep.hpi",
+        "version": "1.3.6"
+    },
+    "configurationslicing": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/configurationslicing/1.47/configurationslicing.hpi",
+        "version": "1.47"
+    },
+    "credentials-binding": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/credentials-binding/1.17/credentials-binding.hpi",
+        "version": "1.17"
+    },
+    "cvs": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/cvs/2.14/cvs.hpi",
+        "version": "2.14"
+    },
+    "dependency-track": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/dependency-track/2.0.2/dependency-track.hpi",
+        "version": "2.0.2"
+    },
+    "display-url-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/display-url-api/2.3.0/display-url-api.hpi",
+        "version": "2.3.0"
+    },
+    "docker-java-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/docker-java-api/3.0.14/docker-java-api.hpi",
+        "version": "3.0.14"
+    },
+    "docker-workflow": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/docker-workflow/1.17/docker-workflow.hpi",
+        "version": "1.17"
+    },
+    "email-ext": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/email-ext/2.63/email-ext.hpi",
+        "version": "2.63"
+    },
+    "emailext-template": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/emailext-template/1.1/emailext-template.hpi",
+        "version": "1.1"
+    },
+    "envinject-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/envinject-api/1.5/envinject-api.hpi",
+        "version": "1.5"
+    },
+    "favorite": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/favorite/2.3.2/favorite.hpi",
+        "version": "2.3.2"
+    },
+    "git": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/git/3.9.1/git.hpi",
+        "version": "3.9.1"
+    },
+    "git-server": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/git-server/1.7/git-server.hpi",
+        "version": "1.7"
+    },
+    "github-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/github-api/1.95/github-api.hpi",
+        "version": "1.95"
+    },
+    "github-oauth": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/github-oauth/0.31/github-oauth.hpi",
+        "version": "0.31"
+    },
+    "gitlab-hook": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/gitlab-hook/1.4.2/gitlab-hook.hpi",
+        "version": "1.4.2"
+    },
+    "gitlab-plugin": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/gitlab-plugin/1.5.11/gitlab-plugin.hpi",
+        "version": "1.5.11"
+    },
+    "greenballs": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/greenballs/1.15/greenballs.hpi",
+        "version": "1.15"
+    },
+    "handy-uri-templates-2-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/handy-uri-templates-2-api/2.1.6-1.0/handy-uri-templates-2-api.hpi",
+        "version": "2.1.6-1.0"
+    },
+    "htmlpublisher": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/htmlpublisher/1.17/htmlpublisher.hpi",
+        "version": "1.17"
+    },
+    "icon-shim": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/icon-shim/2.0.3/icon-shim.hpi",
+        "version": "2.0.3"
+    },
+    "jacoco": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jacoco/3.0.4/jacoco.hpi",
+        "version": "3.0.4"
+    },
+    "jdk-tool": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jdk-tool/1.2/jdk-tool.hpi",
+        "version": "1.2"
+    },
+    "jenkins-multijob-plugin": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jenkins-multijob-plugin/1.32/jenkins-multijob-plugin.hpi",
+        "version": "1.32"
+    },
+    "jira-steps": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jira-steps/1.4.4/jira-steps.hpi",
+        "version": "1.4.4"
+    },
+    "jobConfigHistory": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jobConfigHistory/2.19/jobConfigHistory.hpi",
+        "version": "2.19"
+    },
+    "jquery-detached": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/jquery-detached/1.2.1/jquery-detached.hpi",
+        "version": "1.2.1"
+    },
+    "junit": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/junit/1.26.1/junit.hpi",
+        "version": "1.26.1"
+    },
+    "kubernetes": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/kubernetes/1.14.1/kubernetes.hpi",
+        "version": "1.14.1"
+    },
+    "ldap": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/ldap/1.20/ldap.hpi",
+        "version": "1.20"
+    },
+    "mailer": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/mailer/1.22/mailer.hpi",
+        "version": "1.22"
+    },
+    "matrix-auth": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/matrix-auth/2.3/matrix-auth.hpi",
+        "version": "2.3"
+    },
+    "maven-plugin": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/maven-plugin/3.2/maven-plugin.hpi",
+        "version": "3.2"
+    },
+    "momentjs": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/momentjs/1.1.1/momentjs.hpi",
+        "version": "1.1.1"
+    },
+    "openshift-client": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/openshift-client/1.0.23/openshift-client.hpi",
+        "version": "1.0.23"
+    },
+    "openshift-pipeline": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/openshift-pipeline/1.0.55/openshift-pipeline.hpi",
+        "version": "1.0.55"
+    },
+    "pam-auth": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pam-auth/1.4/pam-auth.hpi",
+        "version": "1.4"
+    },
+    "performance": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/performance/3.14/performance.hpi",
+        "version": "3.14"
+    },
+    "pipeline-build-step": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-build-step/2.7/pipeline-build-step.hpi",
+        "version": "2.7"
+    },
+    "pipeline-graph-analysis": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-graph-analysis/1.9/pipeline-graph-analysis.hpi",
+        "version": "1.9"
+    },
+    "pipeline-milestone-step": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-milestone-step/1.3.1/pipeline-milestone-step.hpi",
+        "version": "1.3.1"
+    },
+    "pipeline-model-declarative-agent": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-model-declarative-agent/1.1.1/pipeline-model-declarative-agent.hpi",
+        "version": "1.1.1"
+    },
+    "pipeline-model-extensions": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-model-extensions/1.3.4/pipeline-model-extensions.hpi",
+        "version": "1.3.4"
+    },
+    "pipeline-stage-step": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-stage-step/2.3/pipeline-stage-step.hpi",
+        "version": "2.3"
+    },
+    "pipeline-stage-view": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pipeline-stage-view/2.10/pipeline-stage-view.hpi",
+        "version": "2.10"
+    },
+    "plain-credentials": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/plain-credentials/1.5/plain-credentials.hpi",
+        "version": "1.5"
+    },
+    "pubsub-light": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/pubsub-light/1.12/pubsub-light.hpi",
+        "version": "1.12"
+    },
+    "rebuild": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/rebuild/1.29/rebuild.hpi",
+        "version": "1.29"
+    },
+    "role-strategy": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/role-strategy/2.9.0/role-strategy.hpi",
+        "version": "2.9.0"
+    },
+    "run-condition": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/run-condition/1.2/run-condition.hpi",
+        "version": "1.2"
+    },
+    "scm-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/scm-api/2.3.0/scm-api.hpi",
+        "version": "2.3.0"
+    },
+    "script-security": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/script-security/1.49/script-security.hpi",
+        "version": "1.49"
+    },
+    "sonar": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/sonar/2.8.1/sonar.hpi",
+        "version": "2.8.1"
+    },
+    "sse-gateway": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/sse-gateway/1.16/sse-gateway.hpi",
+        "version": "1.16"
+    },
+    "ssh-agent": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/ssh-agent/1.17/ssh-agent.hpi",
+        "version": "1.17"
+    },
+    "ssh-slaves": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/ssh-slaves/1.29.1/ssh-slaves.hpi",
+        "version": "1.29.1"
+    },
+    "structs": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/structs/1.17/structs.hpi",
+        "version": "1.17"
+    },
+    "template-workflows": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/template-workflows/1.2/template-workflows.hpi",
+        "version": "1.2"
+    },
+    "throttle-concurrents": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/throttle-concurrents/2.0.1/throttle-concurrents.hpi",
+        "version": "2.0.1"
+    },
+    "token-macro": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/token-macro/2.5/token-macro.hpi",
+        "version": "2.5"
+    },
+    "view26": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/view26/1.0.7/view26.hpi",
+        "version": "1.0.7"
+    },
+    "workflow-aggregator": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-aggregator/2.6/workflow-aggregator.hpi",
+        "version": "2.6"
+    },
+    "workflow-basic-steps": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-basic-steps/2.13/workflow-basic-steps.hpi",
+        "version": "2.13"
+    },
+    "workflow-cps-global-lib": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-cps-global-lib/2.12/workflow-cps-global-lib.hpi",
+        "version": "2.12"
+    },
+    "workflow-job": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-job/2.31/workflow-job.hpi",
+        "version": "2.31"
+    },
+    "workflow-remote-loader": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-remote-loader/1.4/workflow-remote-loader.hpi",
+        "version": "1.4"
+    },
+    "workflow-step-api": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/workflow-step-api/2.17/workflow-step-api.hpi",
+        "version": "2.17"
+    },
+    "ws-cleanup": {
+        "url": "http://updates.jenkins-ci.org/download/plugins/ws-cleanup/0.37/ws-cleanup.hpi",
+        "version": "0.37"
+    }
+}

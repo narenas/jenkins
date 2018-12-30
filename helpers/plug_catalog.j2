@@ -1,0 +1,57 @@
+{
+    "type" : "plugin-catalog",
+    "version" : "1",
+    "name" : "globile-plugins-catalog",
+    "displayName" : "Globile",
+    "configurations" : [
+        {
+            "description" : "Plugins catalog for Globile",
+            "includePlugins" : {
+                "tier3-plugin": {
+                    "groupId": "com.my-company.jenkins.plugins", (9)
+                    "version" : "1.8.2"
+                },
+                "my-corporate-plugin": {
+                    "url" : "https://download.my-company.com/jenkins/my-corporate-plugin-3.2.1.hpi"
+                },
+                "my-other-corporate-plugin": {
+                    "sha1" : "SC/TzSN+eOrewaDZJZyzLpIQV7E=", (10)
+                    "url" : "https://download.my-company.com/jenkins/my-other-corporate-plugin-1.2.3.hpi" (11)
+                }
+            }
+        },
+        { (12)
+            "description" : "java-web-master for 2.89+",
+            "prerequisites": {
+                "productVersion": "[2.89)"
+            },
+            "includePlugins" : {
+                "tier3-plugin": {
+                    "groupId": "com.my-company.jenkins.plugins",
+                    "version" : "1.8.3"
+                },
+                "my-corporate-plugin": {
+                    "url" : "https://download.my-company.com/jenkins/my-corporate-plugin-3.4.0.hpi"
+                },
+                "my-other-corporate-plugin": {
+                    "sha1" : "SC/TzSN+eOrewaDZJZyzLpIQV7E=",
+                    "url" : "https://download.my-company.com/jenkins/my-other-corporate-plugin-1.3.0.hpi"
+                }
+            }
+        }
+    ],
+    "settings": { (13)
+        "httpCredentialsProvider": { (14)
+            "credentials": [ (15)
+                {
+                    "authenticationScope": "ANY", (16)
+                    "id": "download-server-credentials" (17)
+                }
+            ]
+        },
+        "repository": { (18)
+            "layout": "maven2", (19)
+            "url": "https://repo.my-company.com/content/repositories/dev-connect"
+        }
+    }
+}
