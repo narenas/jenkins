@@ -1,8 +1,8 @@
 pipeline {
-  agent {
-    kubernetes {
-        label 'default-java'
-        yaml  """
+    agent {
+        kubernetes {
+            label 'default-java'
+            yaml  """
 apiVersion: v1
 kind: Pod
 metadata:
@@ -16,22 +16,22 @@ spec:
           - 'cat'
           tty: true
 """
-    }
-  }
-  stages {
-    stage('Run maven') {
-      steps {
-        container('maven') {
-          sh 'mvn -version'
         }
-      }
-     stage('Build') {
-        steps {
-            container('maven') {
-            sh 'mvn clean install'
+    }
+    stages {
+        stage('Run maven') {
+            steps {
+                container('maven') {
+                    sh 'mvn -version'
+                }
             }
         }
-     }
+        stage('Build') {
+            steps {
+                container('maven') {
+                    sh 'mvn clean install'
+                }
+            }
+        }
     }
-  }
 }
