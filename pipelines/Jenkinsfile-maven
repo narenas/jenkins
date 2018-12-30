@@ -25,6 +25,13 @@ spec:
           sh 'mvn -version'
         }
       }
+     stage('Build') {
+        step {
+            container('maven') {
+            sh 'mvn clean install'
+            }
+        }
+     }
     }
   }
 }
