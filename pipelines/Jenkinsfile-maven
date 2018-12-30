@@ -1,13 +1,13 @@
 pipeline {
   agent {
     kubernetes {
-        label 'default-java' 
+        label 'default-java'
         yaml: """
 apiVersion: v1
 kind: Pod
 metadata:
     labels:
-        some-label: some-label-value
+        service: "ci"
 spec:
     containers:
         - name: "maven"
