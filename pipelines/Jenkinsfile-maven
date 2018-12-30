@@ -1,13 +1,7 @@
 pipeline {
   agent {
     kubernetes {
-      label 'mypodtemplate-v1'
-      containerTemplate {
-        name 'maven'
-        image 'maven:3.3.9-jdk-8-alpine'
-        ttyEnabled true
-        command 'cat'
-      }
+        label 'default-java'
     }
   }
   stages {
