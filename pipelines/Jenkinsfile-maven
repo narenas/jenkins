@@ -1,6 +1,6 @@
 
-def getConfig () {
-    data = readYaml(file: ".c3al_config.yml")
+def getConfig (cfg_file) {
+    data = readYaml(file: cfg_file)
     return data
 }
 
@@ -29,7 +29,7 @@ spec:
         stage ('Setting up environment') {
             steps {
                 script {
-                    def data = getConfig()
+                    def data = getConfig(".c3al_config.yml")
                     }
                 echo "${data.test}"
             }
