@@ -1,6 +1,8 @@
 
 pipeline {
-    def data = readYaml file: ".c3al_config.yml"
+    script {
+        def data = readYaml file: ".c3al_config.yml"
+    }
     agent {
         kubernetes {
             label 'default-java'
