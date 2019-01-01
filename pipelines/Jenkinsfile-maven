@@ -29,15 +29,15 @@ spec:
         stage ('Setting up environment') {
             steps {
                 script {
-                    def data = getConfig(".c3al_config.yml")
+                    def config = getConfig(".c3al_config.yml")
                     }
-                echo "${data.test}"
+                echo "${config.test}"
             }
         }
         stage('Run maven') {
             steps {
                 container('maven') {
-                    echo "${data.test}"
+                    echo "${config.test}"
                     sh 'mvn -version'
                 }
             }
@@ -45,11 +45,20 @@ spec:
         stage('Build') {
             steps {
                 container('maven') {
-                    echo "${data.test}"
+                    echo "${config.test}"
                     sh 'mvn clean install'
                 }
             }
         }
+        stage ('Blue-Green') {
+            when {
+                expression { ${config.bluegreen} == '1' }
+            }
+            steps {
+                echo "Execute BlueGreen steps because ${config.bluegreen}"
+            }
+        }
+
     }
     post {
         success {
