@@ -1,3 +1,4 @@
+def data = readYaml file: ".c3al_config.yml"
 
 pipeline {
 
@@ -22,9 +23,6 @@ spec:
     }
 
     stages {
-        script {
-            def data = readYaml file: ".c3al_config.yml"
-        }
         stage('Run maven') {
             steps {
                 container('maven') {
