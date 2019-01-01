@@ -1,4 +1,6 @@
+
 pipeline {
+    def data = readYaml file: ".c3al_config.yml"
     agent {
         kubernetes {
             label 'default-java'
@@ -18,10 +20,12 @@ spec:
 """
         }
     }
+
     stages {
         stage('Run maven') {
             steps {
                 container('maven') {
+                    echo data.test
                     sh 'mvn -version'
                 }
             }
