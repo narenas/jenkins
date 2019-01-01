@@ -1,4 +1,6 @@
-def data = readYaml file: ".c3al_config.yml"
+node {
+    def data = readYaml(file: ".c3al_config.yml").trim()
+}
 
 pipeline {
 
