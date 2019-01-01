@@ -26,12 +26,13 @@ spec:
                 script {
                     def data = readYaml(file: ".c3al_config.yml")
                     }
+                    echo "${data.test}"
             }
         }
         stage('Run maven') {
             steps {
                 container('maven') {
-                    echo data.test
+                    echo "${data.test}"
                     sh 'mvn -version'
                 }
             }
@@ -39,7 +40,7 @@ spec:
         stage('Build') {
             steps {
                 container('maven') {
-                    echo data.test
+                    echo "${data.test}"
                     sh 'mvn clean install'
                 }
             }
