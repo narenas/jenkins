@@ -52,7 +52,7 @@ spec:
         }
         stage ('Blue-Green') {
             when {
-                expression { config.bluegreen == '1' }
+                expression { ${config.bluegreen} == '1' }
             }
             steps {
                 echo "Execute BlueGreen steps because ${config.bluegreen}"
