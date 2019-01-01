@@ -24,7 +24,7 @@ spec:
         stage ('Setting up environment') {
             steps {
                 script {
-                    def data = readYaml(file: ".c3al_config.yml").trim()
+                    def data = readYaml(file: ".c3al_config.yml")
                     }
             }
         }
