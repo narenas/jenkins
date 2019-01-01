@@ -1,7 +1,3 @@
-node {
-    def data = readYaml(file: ".c3al_config.yml").trim()
-}
-
 pipeline {
 
     agent {
@@ -25,6 +21,11 @@ spec:
     }
 
     stages {
+        stage ('Setting up environment') {
+            script {
+                def data = readYaml(file: ".c3al_config.yml").trim()
+                }
+        }
         stage('Run maven') {
             steps {
                 container('maven') {
@@ -36,6 +37,7 @@ spec:
         stage('Build') {
             steps {
                 container('maven') {
+                    echo data.test
                     sh 'mvn clean install'
                 }
             }
