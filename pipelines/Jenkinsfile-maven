@@ -22,9 +22,11 @@ spec:
 
     stages {
         stage ('Setting up environment') {
-            script {
-                def data = readYaml(file: ".c3al_config.yml").trim()
-                }
+            steps {
+                script {
+                    def data = readYaml(file: ".c3al_config.yml").trim()
+                    }
+            }
         }
         stage('Run maven') {
             steps {
