@@ -1,0 +1,20 @@
+{
+             "data": {
+                 "displayName": "Test-team",
+                 "icon": {
+                     "color": "#dd6669",
+                     "name": "truck"
+                 },
+                 "members": [
+                     {   
+                         "id": "x103814",
+                         "roles": [
+                             "TEAM_ADMIN"
+                         ]
+                     }
+                 ],
+                 "name": "test-team",
+                 "provisioningRecipe": "Produban-SaaS"
+             },
+             "version": "1"
+}

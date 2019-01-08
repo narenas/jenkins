@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import urllib.request, json
+import re
 
 url_base = "https://plugins.jenkins.io/api/plugin/"
 
@@ -15,24 +16,30 @@ def read_plugins(file):
 def generate_json(plugin):
     url_plugin = url_base + plugin
     #print ("Get info for " +  url_plugin + "\n")
-    with urllib.request.urlopen(url_plugin) as url:
-        data = json.loads(url.read().decode())
-        version = data.get("version")
-        download_url = data.get("url")
-    plugin_info = {}
-    plugin_info[plugin] = {}
-    plugin_info[plugin]["version"] = version
-    plugin_info[plugin]["url"] =  download_url
-
+    try:
+        with urllib.request.urlopen(url_plugin) as url:
+            data = json.loads(url.read().decode())
+            version = data.get("version")
+            download_url = data.get("url")
+        plugin_info = {}
+        plugin_info[plugin] = {}
+        #plugin_info[plugin]["version"] = version
+        plugin_info[plugin]["url"] =  download_url
+    except urllib.error.URLError as e:
+        print(plugin + " " + e.reason)
+        return 0
     return plugin_info
 
-plugins = read_plugins("plugins.txt")
+plugins = read_plugins("plug1.txt")
 plug_collection = {}
 
 for plugin in plugins:
     my_plugin = plugin.rstrip()
-    plugins_info = generate_json(my_plugin)
-    print (plugin)
+    plug = re.sub('[",]', '', my_plugin)
+#    print (plug)
+    plugins_info = generate_json(plug)
+    if plugins_info == 0:
+        continue
     # print (plugins_info[plugin]["version"])
     # print (plugins_info[plugin]["download_url"])
     plug_collection.update(plugins_info)
