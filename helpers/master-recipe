@@ -81,7 +81,7 @@
     "displayName": "Produban Master Server",
     "description": "Initial Jenkins setup for Produban as SaaS",
     "plugins": [
-                "ace-editor",
+        "ace-editor",
         "analysis-core",
         "ansicolor",
         "ant",
@@ -269,6 +269,16 @@
         "ws-cleanup"
         ],
      "default": true
-   }
+   },
+   {
+   "name": "catalog-recipe",
+   "displayName": "Beer recipe",
+   "description": "Testing nexus proxy",
+   "plugins": [
+        "beer"
+       ],
+    "default": false ,
+    "pluginCatalog": "test-nexus-repository"
+  }
  ]
 }

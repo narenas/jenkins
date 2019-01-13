@@ -1,20 +1,20 @@
 {
              "data": {
-                 "displayName": "Test-team",
+                 "displayName": "other_team",
                  "icon": {
                      "color": "#dd6669",
                      "name": "truck"
                  },
                  "members": [
-                     {   
+                     {
                          "id": "x103814",
                          "roles": [
                              "TEAM_ADMIN"
                          ]
                      }
                  ],
-                 "name": "test-team",
-                 "provisioningRecipe": "Produban-SaaS"
+                 "name": "test-team-1",
+                 "provisioningRecipe": "test-nexus-repository"
              },
              "version": "1"
 }

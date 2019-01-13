@@ -1,0 +1,23 @@
+{
+    "type" : "plugin-catalog",
+    "version" : "1",
+    "name" : "test-nexus-repository",
+    "displayName" : "Test nexus repo",
+    "configurations" : [
+        {
+            "description" : "My Plugin Catalog for Masters versions 2.121 to 2.138.1.2",
+            "includePlugins" : {
+                "beer": {
+                    "groupId": "org.jenkins-ci.plugins",
+                    "version" : "1.1"
+                }
+            }
+        }
+    ],
+    "settings": {
+        "repository": {
+            "layout": "maven2",
+            "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/"
+        }
+    }
+}
