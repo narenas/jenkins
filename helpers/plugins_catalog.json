@@ -1,0 +1,418 @@
+{
+    "configurations": [
+        {
+            "description": "Plugins",
+            "includePlugins": {
+                "ace-editor": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/ui/ace-editor/1.1/ace-editor-1.1.hpi"
+                },
+                "analysis-core": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jvnet/hudson/plugins/analysis-core/1.95/analysis-core-1.95.hpi"
+                },
+                "ansicolor": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ansicolor/0.6.1/ansicolor-0.6.1.hpi"
+                },
+                "ant": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ant/1.9/ant-1.9.hpi"
+                },
+                "antisamy-markup-formatter": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/antisamy-markup-formatter/1.5/antisamy-markup-formatter-1.5.hpi"
+                },
+                "apache-httpcomponents-client-4-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/apache-httpcomponents-client-4-api/4.5.5-3.0/apache-httpcomponents-client-4-api-4.5.5-3.0.hpi"
+                },
+                "authentication-tokens": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/authentication-tokens/1.3/authentication-tokens-1.3.hpi"
+                },
+                "aws-java-sdk": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/aws-java-sdk/1.11.457/aws-java-sdk-1.11.457.hpi"
+                },
+                "block-queued-job": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/block-queued-job/0.2.0/block-queued-job-0.2.0.hpi"
+                },
+                "block-same-builds": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/block-same-builds/1.3/block-same-builds-1.3.hpi"
+                },
+                "blueocean": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean/1.10.1/blueocean-1.10.1.hpi"
+                },
+                "blueocean-autofavorite": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/blueocean-autofavorite/1.2.2/blueocean-autofavorite-1.2.2.hpi"
+                },
+                "blueocean-bitbucket-pipeline": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-bitbucket-pipeline/1.10.1/blueocean-bitbucket-pipeline-1.10.1.hpi"
+                },
+                "blueocean-config": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-config/1.10.1/blueocean-config-1.10.1.hpi"
+                },
+                "blueocean-dashboard": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-dashboard/1.10.1/blueocean-dashboard-1.10.1.hpi"
+                },
+                "blueocean-display-url": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/blueocean-display-url/2.2.0/blueocean-display-url-2.2.0.hpi"
+                },
+                "blueocean-events": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-events/1.10.1/blueocean-events-1.10.1.hpi"
+                },
+                "blueocean-github-pipeline": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-github-pipeline/1.10.1/blueocean-github-pipeline-1.10.1.hpi"
+                },
+                "blueocean-jira": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-jira/1.10.1/blueocean-jira-1.10.1.hpi"
+                },
+                "blueocean-personalization": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-personalization/1.10.1/blueocean-personalization-1.10.1.hpi"
+                },
+                "blueocean-pipeline-editor": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-pipeline-editor/1.10.1/blueocean-pipeline-editor-1.10.1.hpi"
+                },
+                "blueocean-rest": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-rest/1.10.1/blueocean-rest-1.10.1.hpi"
+                },
+                "blueocean-web": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/blueocean-web/1.10.1/blueocean-web-1.10.1.hpi"
+                },
+                "bouncycastle-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/bouncycastle-api/2.17/bouncycastle-api-2.17.hpi"
+                },
+                "build-monitor-plugin": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/build-monitor-plugin/1.12+build.201809061734/build-monitor-plugin-1.12+build.201809061734.hpi"
+                },
+                "build-name-setter": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/build-name-setter/1.6.9/build-name-setter-1.6.9.hpi"
+                },
+                "build-timeout": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/build-timeout/1.19/build-timeout-1.19.hpi"
+                },
+                "build-with-parameters": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/build-with-parameters/1.4/build-with-parameters-1.4.hpi"
+                },
+                "built-on-column": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/built-on-column/1.1/built-on-column-1.1.hpi"
+                },
+                "clone-workspace-scm": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/clone-workspace-scm/0.6/clone-workspace-scm-0.6.hpi"
+                },
+                "cloud-stats": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/cloud-stats/0.20/cloud-stats-0.20.hpi"
+                },
+                "cloudbees-folder": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/cloudbees-folder/6.7/cloudbees-folder-6.7.hpi"
+                },
+                "cobertura": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/cobertura/1.13/cobertura-1.13.hpi"
+                },
+                "command-launcher": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/command-launcher/1.3/command-launcher-1.3.hpi"
+                },
+                "conditional-buildstep": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/conditional-buildstep/1.3.6/conditional-buildstep-1.3.6.hpi"
+                },
+                "config-file-provider": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/config-file-provider/3.4.1/config-file-provider-3.4.1.hpi"
+                },
+                "configurationslicing": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/configurationslicing/1.47/configurationslicing-1.47.hpi"
+                },
+                "credentials": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/credentials/2.1.18/credentials-2.1.18.hpi"
+                },
+                "credentials-binding": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/credentials-binding/1.17/credentials-binding-1.17.hpi"
+                },
+                "cucumber-reports": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/net/masterthought/jenkins/cucumber-reports/4.3.0/cucumber-reports-4.3.0.hpi"
+                },
+                "cvs": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/cvs/2.14/cvs-2.14.hpi"
+                },
+                "dependency-check-jenkins-plugin": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/dependency-check-jenkins-plugin/4.0.2/dependency-check-jenkins-plugin-4.0.2.hpi"
+                },
+                "dependency-track": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/dependency-track/2.0.2/dependency-track-2.0.2.hpi"
+                },
+                "diawi-upload": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/diawi-upload/1.4/diawi-upload-1.4.hpi"
+                },
+                "docker-commons": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/docker-commons/1.13/docker-commons-1.13.hpi"
+                },
+                "docker-java-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/docker-java-api/3.0.14/docker-java-api-3.0.14.hpi"
+                },
+                "docker-plugin": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/docker/docker-plugin/1.1.5/docker-plugin-1.1.5.hpi"
+                },
+                "durable-task": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/durable-task/1.28/durable-task-1.28.hpi"
+                },
+                "email-ext-recipients-column": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/email-ext-recipients-column/1.0/email-ext-recipients-column-1.0.hpi"
+                },
+                "emailext-template": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/emailext-template/1.1/emailext-template-1.1.hpi"
+                },
+                "envinject": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/envinject/2.1.6/envinject-2.1.6.hpi"
+                },
+                "envinject-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/envinject-api/1.5/envinject-api-1.5.hpi"
+                },
+                "external-monitor-job": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/external-monitor-job/1.7/external-monitor-job-1.7.hpi"
+                },
+                "generic-webhook-trigger": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/generic-webhook-trigger/1.52/generic-webhook-trigger-1.52.hpi"
+                },
+                "git": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/git/3.9.1/git-3.9.1.hpi"
+                },
+                "git-client": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/git-client/2.7.6/git-client-2.7.6.hpi"
+                },
+                "git-server": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/git-server/1.7/git-server-1.7.hpi"
+                },
+                "github": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/com/coravy/hudson/plugins/github/github/1.29.3/github-1.29.3.hpi"
+                },
+                "github-branch-source": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/github-branch-source/2.4.1/github-branch-source-2.4.1.hpi"
+                },
+                "github-oauth": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/github-oauth/0.31/github-oauth-0.31.hpi"
+                },
+                "github-organization-folder": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/github-organization-folder/1.6/github-organization-folder-1.6.hpi"
+                },
+                "gitlab-hook": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/ruby-plugins/gitlab-hook/1.4.2/gitlab-hook-1.4.2.hpi"
+                },
+                "gitlab-oauth": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/gitlab-oauth/1.4/gitlab-oauth-1.4.hpi"
+                },
+                "gitlab-plugin": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/gitlab-plugin/1.5.11/gitlab-plugin-1.5.11.hpi"
+                },
+                "greenballs": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/greenballs/1.15/greenballs-1.15.hpi"
+                },
+                "handlebars": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/ui/handlebars/1.1.1/handlebars-1.1.1.hpi"
+                },
+                "handy-uri-templates-2-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/handy-uri-templates-2-api/2.1.6-1.0/handy-uri-templates-2-api-2.1.6-1.0.hpi"
+                },
+                "hockeyapp": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/hockeyapp/1.4.0/hockeyapp-1.4.0.hpi"
+                },
+                "htmlpublisher": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/htmlpublisher/1.17/htmlpublisher-1.17.hpi"
+                },
+                "http_request": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/http_request/1.8.22/http_request-1.8.22.hpi"
+                },
+                "icon-shim": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/icon-shim/icon-shim/2.0.3/icon-shim-2.0.3.hpi"
+                },
+                "jackson2-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jackson2-api/2.9.8/jackson2-api-2.9.8.hpi"
+                },
+                "jacoco": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jacoco/3.0.4/jacoco-3.0.4.hpi"
+                },
+                "javadoc": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/javadoc/1.4/javadoc-1.4.hpi"
+                },
+                "jenkins-design-language": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/jenkins/blueocean/jenkins-design-language/1.10.1/jenkins-design-language-1.10.1.hpi"
+                },
+                "jira": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jira/3.0.5/jira-3.0.5.hpi"
+                },
+                "jira-steps": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jira-steps/1.4.4/jira-steps-1.4.4.hpi"
+                },
+                "job-dsl": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/job-dsl/1.71/job-dsl-1.71.hpi"
+                },
+                "jobConfigHistory": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jobConfigHistory/2.19/jobConfigHistory-2.19.hpi"
+                },
+                "jquery": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jquery/1.12.4-0/jquery-1.12.4-0.hpi"
+                },
+                "jquery-detached": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/ui/jquery-detached/1.2.1/jquery-detached-1.2.1.hpi"
+                },
+                "jsch": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/jsch/0.1.55/jsch-0.1.55.hpi"
+                },
+                "junit": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/junit/1.26.1/junit-1.26.1.hpi"
+                },
+                "junit-realtime-test-reporter": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/junit-realtime-test-reporter/0.6/junit-realtime-test-reporter-0.6.hpi"
+                },
+                "kubernetes-credentials": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/kubernetes-credentials/0.4.0/kubernetes-credentials-0.4.0.hpi"
+                },
+                "ldap": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ldap/1.20/ldap-1.20.hpi"
+                },
+                "lockable-resources": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/6wind/jenkins/lockable-resources/2.3/lockable-resources-2.3.hpi"
+                },
+                "mapdb-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/mapdb-api/1.0.9.0/mapdb-api-1.0.9.0.hpi"
+                },
+                "matrix-auth": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/matrix-auth/2.3/matrix-auth-2.3.hpi"
+                },
+                "matrix-project": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/matrix-project/1.13/matrix-project-1.13.hpi"
+                },
+                "mercurial": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/mercurial/2.4/mercurial-2.4.hpi"
+                },
+                "momentjs": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/ui/momentjs/1.1.1/momentjs-1.1.1.hpi"
+                },
+                "nodejs": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/nodejs/1.2.7/nodejs-1.2.7.hpi"
+                },
+                "openshift-client": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/com/openshift/jenkins/plugins/openshift-client/1.0.23/openshift-client-1.0.23.hpi"
+                },
+                "openshift-login": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/openshift/jenkins/openshift-login/1.0.12/openshift-login-1.0.12.hpi"
+                },
+                "openshift-sync": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/io/fabric8/jenkins/plugins/openshift-sync/1.0.31/openshift-sync-1.0.31.hpi"
+                },
+                "pam-auth": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pam-auth/1.4/pam-auth-1.4.hpi"
+                },
+                "parameterized-trigger": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/parameterized-trigger/2.35.2/parameterized-trigger-2.35.2.hpi"
+                },
+                "performance": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/performance/3.14/performance-3.14.hpi"
+                },
+                "pipeline-aws": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/de/taimos/pipeline-aws/1.36/pipeline-aws-1.36.hpi"
+                },
+                "pipeline-build-step": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-build-step/2.7/pipeline-build-step-2.7.hpi"
+                },
+                "pipeline-github-lib": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-github-lib/1.0/pipeline-github-lib-1.0.hpi"
+                },
+                "pipeline-input-step": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-input-step/2.9/pipeline-input-step-2.9.hpi"
+                },
+                "pipeline-milestone-step": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-milestone-step/1.3.1/pipeline-milestone-step-1.3.1.hpi"
+                },
+                "pipeline-model-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/pipeline-model-api/1.3.4.1/pipeline-model-api-1.3.4.1.hpi"
+                },
+                "pipeline-model-declarative-agent": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/pipeline-model-declarative-agent/1.1.1/pipeline-model-declarative-agent-1.1.1.hpi"
+                },
+                "pipeline-model-definition": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/pipeline-model-definition/1.3.4.1/pipeline-model-definition-1.3.4.1.hpi"
+                },
+                "pipeline-rest-api": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-stage-view/pipeline-rest-api/2.10/pipeline-rest-api-2.10.hpi"
+                },
+                "pipeline-stage-step": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-stage-step/2.3/pipeline-stage-step-2.3.hpi"
+                },
+                "pipeline-stage-tags-metadata": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkinsci/plugins/pipeline-stage-tags-metadata/1.3.4.1/pipeline-stage-tags-metadata-1.3.4.1.hpi"
+                },
+                "pipeline-stage-view": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-stage-view/pipeline-stage-view/2.10/pipeline-stage-view-2.10.hpi"
+                },
+                "pipeline-utility-steps": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pipeline-utility-steps/2.2.0/pipeline-utility-steps-2.2.0.hpi"
+                },
+                "play-autotest-plugin": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/play-autotest-plugin/1.0.2/play-autotest-plugin-1.0.2.hpi"
+                },
+                "pubsub-light": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/pubsub-light/1.12/pubsub-light-1.12.hpi"
+                },
+                "quality-gates": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/quality-gates/2.5/quality-gates-2.5.hpi"
+                },
+                "rebuild": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/com/sonyericsson/hudson/plugins/rebuild/rebuild/1.29/rebuild-1.29.hpi"
+                },
+                "resource-disposer": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/resource-disposer/0.12/resource-disposer-0.12.hpi"
+                },
+                "role-strategy": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/role-strategy/2.9.0/role-strategy-2.9.0.hpi"
+                },
+                "ruby-runtime": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ruby-runtime/0.12/ruby-runtime-0.12.hpi"
+                },
+                "saferestart": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/saferestart/0.3/saferestart-0.3.hpi"
+                },
+                "scm-sync-configuration": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/scm-sync-configuration/0.0.10/scm-sync-configuration-0.0.10.hpi"
+                },
+                "skip-certificate-check": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/skip-certificate-check/1.0/skip-certificate-check-1.0.hpi"
+                },
+                "sonar": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/sonar/2.8.1/sonar-2.8.1.hpi"
+                },
+                "sonar-quality-gates": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/sonar-quality-gates/1.3.1/sonar-quality-gates-1.3.1.hpi"
+                },
+                "ssh": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ssh/2.6.1/ssh-2.6.1.hpi"
+                },
+                "ssh-credentials": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ssh-credentials/1.14/ssh-credentials-1.14.hpi"
+                },
+                "ssh-steps": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/ssh-steps/1.2.0/ssh-steps-1.2.0.hpi"
+                },
+                "structs": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/structs/1.17/structs-1.17.hpi"
+                },
+                "subversion": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/subversion/2.12.1/subversion-2.12.1.hpi"
+                },
+                "template-workflows": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins/plugin/templateWorkflows/template-workflows/1.2/template-workflows-1.2.hpi"
+                },
+                "thinBackup": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jvnet/hudson/plugins/thinBackup/1.9/thinBackup-1.9.hpi"
+                },
+                "throttle-concurrents": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/throttle-concurrents/2.0.1/throttle-concurrents-2.0.1.hpi"
+                },
+                "timestamper": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/timestamper/1.8.10/timestamper-1.8.10.hpi"
+                },
+                "variant": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/variant/1.1/variant-1.1.hpi"
+                },
+                "view26": {
+                    "url": "https://nexus.alm.europe.cloudcenter.corp/repository/jenkins-plugins/org/jenkins-ci/plugins/view26/1.0.7/view26-1.0.7.hpi"
+                }
+            }
+        }
+    ],
+    "displayName": "Test Nexus Repo",
+    "name": "test-nexus-repository",
+    "type": "plugin-catalog",
+    "version": "1"
+}
